@@ -29,7 +29,7 @@ body {
     padding: 16px
 }
 
-.logo-menu,.hero, .information {
+.logo-menu,.hero, .information, .quote div {
     display: flex;
     justify-content: space-between;
     width: 56vw;
@@ -144,7 +144,30 @@ button {
     align-items: center;
 }
 
+.quote {
+    background-color: #e5e7eb;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
+}
+
+.quote .text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight:100;
+    width: 44vw;
+}
+.quote .name {
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    width: 44vw;
+}
 /* DEBUG */
-.information, .information div {
+.quote, .quote div {
     border: 0px solid red;
 }
